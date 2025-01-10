@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", serif; */
+body{
+    background:rgb(246, 243, 236);
+}
+/* nav part */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    color: green;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+/* banner pat */
+.section{
+    /* display: flex; */
+    max-width:1280px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    background-color: #C6E4D6;
+    width: 1280px;
+    height: 560px;
+    border-radius: 10px;
+}
+.banner-part{
+    display: flex;
+    justify-content: space-around;}
+.banner-part-1{
+    padding-top: 150px; 
+    font-size: 20px; 
+}
+.bangla{
+   color: #474747;
+}
+.img{
+padding-top: 50px;
+}
+.btn-primary{
+    height: 50px;
+    width: 200px;
+    background-color: #006A50;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: palevioletred;
+}
+/* pillars part start */
+.pillars{
+    
+    
+}
+.pillars-1{
+    height: 1280px;
+    width: 324px;
+    display: flex;
+    gap: 10px;
+}
