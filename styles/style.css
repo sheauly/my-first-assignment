@@ -92,6 +92,42 @@ padding-top: 50px;
         background-color: #f4dda7;
         border-radius: 10px;
     }
+    .btn-ag{
+        height: 50px;
+        width: 100px;
+        background-color: #5490F5;
+        color: white;
+        font-size: 15px;
+        border-radius: 8px;
+        border: none; 
+    }
+    .btn-ag:hover{
+        background-color: cadetblue;
+    }
+    .btn-bg{
+        height: 50px;
+        width: 100px;
+        background-color: #09A15C;
+        color: white;
+        font-size: 15px;
+        border-radius: 8px;
+        border: none;
+    }
+    .btn-bg:hover{
+        background-color: violet;
+    }
+    .btn-cg{
+        height: 50px;
+        width: 100px;
+        background-color: #FFC239;
+        color: white;
+        font-size: 15px;
+        border-radius: 8px;
+        border: none;
+    }
+    .btn-cg:hover{
+        background-color: rgb(235, 157, 101);
+    }
     /* back part */
     .yunus{
         background-image: url("../assets/quote-bg.png");
@@ -145,9 +181,40 @@ padding-top: 50px;
        }
       form input[type="text"]{
         height: 50px;
-        width: 100%;
+        width: 90%;
         border: none;
         border-radius: 10px;
         background-color: white;
         margin: 30px;
+      }
+      /* subscribe letter part */
+      .subscribe{
+        background-color: #C6E4D6;
+        border-radius: 10px;
+        padding: 30px;margin: 40px;
+        
+      }
+      .newsletter{
+        text-align: center;
+        margin: 30px;
+        
+      }
+      .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .search input{
+        border: none;
+        padding: 10px;
+        border-radius:20px 0 0 20px ;
+      }
+      .search button{
+        border: none;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 10px;
+        border-radius: 0 20px 20px 0;
+        background-color: #006A50;
+        color: #d5f0e4;
       }
