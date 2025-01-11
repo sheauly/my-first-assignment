@@ -143,9 +143,11 @@ padding-top: 50px;
         color: #474747;
     }
     /* Question part */
+    .table-part{
+        margin-bottom: 20px;
+    }
     table{
         border-collapse: collapse;
-        margin: 50px 0px;
         width: 1280px;
         }
         
@@ -170,6 +172,7 @@ padding-top: 50px;
     .recent{
         padding: 30px;
         box-shadow: 0px 6px 50px rgba(199, 197, 197, 0.6);
+        margin: 50px 0px;
         border-radius: 10px; 
         
     }
