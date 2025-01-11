@@ -218,3 +218,25 @@ padding-top: 50px;
         background-color: #006A50;
         color: #d5f0e4;
       }
+      .search button:hover{
+        background-color: #5490F5;
+      }
+      /* footer part */
+      .footer-part{
+        /* background-color: #006A50; */
+        margin: 50px;
+        border-radius: 10px;
+        
+      }
+      .footer-part-1{
+        text-align: center;
+        padding: 30px;
+        
+        
+      }
+      .footer-part-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
